@@ -940,10 +940,14 @@ void mode2()
         FastLED.clear();
         resetTimeDisplay(); }
    if ((s1+s2) == 0)
+   {
    for (int i=170 ; i<239; i++)
    {
    leds[i] = CRGB(0,0,0);
-   }       
+   }
+    temps1=11;
+    temps2=11;     
+   }
    if (m2%2 == 0) 
       timeformat2();
    else
