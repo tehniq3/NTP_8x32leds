@@ -31,7 +31,7 @@ int dst = 1; //3600s;
 WiFiClient client;
 char servername[]="api.openweathermap.org";              // remote weather server we will connect to
 String result;
-String APIKEY = "ca55295c4a1dce2688e0751d4b9a68de";                                 
+String APIKEY = "ca55295c4a4b9a681dce2688e0751dde";                                 
 String CityID = "680332"; // "1264527";                        
 int  fetchweatherflag = 0; 
 String weatherDescription ="";
