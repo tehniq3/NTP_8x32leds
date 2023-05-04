@@ -747,8 +747,8 @@ void windy2()
              }   }  }
 
 void windy3()
-{ leds[69] = CRGB(0,0,0);
-  leds[121] = CRGB(0,0,0);
+{ leds[45] = CRGB(0,0,0);
+  leds[51] = CRGB(0,0,0);
   for (int i=0;i<8;i++)
   {for (int j=0;j<8;j++)
         { if (windy13[i][j]!=0)
